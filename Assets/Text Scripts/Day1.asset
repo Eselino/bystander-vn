@@ -1,0 +1,389 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: Day1
+  m_EditorClassIdentifier: 
+  links:
+  - guid: fa60064a-2955-4145-97ca-37b8922e6358
+    targetGuid: ac669669-003e-4bc9-b747-22b1ce4e38ca
+    portId: 0
+  - guid: ac669669-003e-4bc9-b747-22b1ce4e38ca
+    targetGuid: c5d414e1-d6f7-4a49-95b7-d30d25b59038
+    portId: 1
+  - guid: c5d414e1-d6f7-4a49-95b7-d30d25b59038
+    targetGuid: b030020b-080c-4de5-903b-15a2be1c8afd
+    portId: 2
+  - guid: c5d414e1-d6f7-4a49-95b7-d30d25b59038
+    targetGuid: a6e641f6-ef66-4e23-81d5-89b54fce0863
+    portId: 3
+  - guid: b030020b-080c-4de5-903b-15a2be1c8afd
+    targetGuid: 35657810-118d-4af7-b7e7-3cb90163a6a7
+    portId: 4
+  - guid: 35657810-118d-4af7-b7e7-3cb90163a6a7
+    targetGuid: 8be36715-fdf4-415e-b61b-3b63980d7fc3
+    portId: 5
+  - guid: 8be36715-fdf4-415e-b61b-3b63980d7fc3
+    targetGuid: 5c8fe159-4ddd-41d9-8988-f73aadcf203d
+    portId: 6
+  - guid: d3d6c570-3dba-4614-aa10-7758872b6788
+    targetGuid: 35657810-118d-4af7-b7e7-3cb90163a6a7
+    portId: 7
+  - guid: a6e641f6-ef66-4e23-81d5-89b54fce0863
+    targetGuid: d3d6c570-3dba-4614-aa10-7758872b6788
+    portId: 8
+  - guid: 68a06d3d-2e63-4172-9de1-ab216c9634cf
+    targetGuid: e83d1bc6-aeed-4cf3-af5e-e19b6e482e78
+    portId: 9
+  - guid: 5c8fe159-4ddd-41d9-8988-f73aadcf203d
+    targetGuid: fef00fe7-39bf-450f-82bb-479768424751
+    portId: 10
+  - guid: fef00fe7-39bf-450f-82bb-479768424751
+    targetGuid: 68a06d3d-2e63-4172-9de1-ab216c9634cf
+    portId: 11
+  - guid: e83d1bc6-aeed-4cf3-af5e-e19b6e482e78
+    targetGuid: 41abc283-7fd7-4345-8a19-e80eeedda80a
+    portId: 12
+  - guid: 41abc283-7fd7-4345-8a19-e80eeedda80a
+    targetGuid: 1b88f94e-2b79-42d0-b733-998f763f0b16
+    portId: 13
+  - guid: 1b88f94e-2b79-42d0-b733-998f763f0b16
+    targetGuid: 8a648ba8-d4c1-4f5c-a747-c77ba60b1d6b
+    portId: 14
+  - guid: 8a648ba8-d4c1-4f5c-a747-c77ba60b1d6b
+    targetGuid: 4d253b7c-f270-48d5-87c0-e0b0e85c2136
+    portId: 15
+  - guid: 4d253b7c-f270-48d5-87c0-e0b0e85c2136
+    targetGuid: 5b418dcc-c00b-422f-a3e1-eaa748ca2d7f
+    portId: 16
+  nodes:
+  - guid: fa60064a-2955-4145-97ca-37b8922e6358
+    characterSpr: {fileID: 0}
+    characterName: ???
+    dialogueText: Hey du!
+    backgroundSpr: {fileID: 21300000, guid: 0e9021563ee12a84d92e1d74a6d467e8, type: 3}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -1722
+      y: 24
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ac669669-003e-4bc9-b747-22b1ce4e38ca
+    characterSpr: {fileID: 21300000, guid: a13cef44f08dc304daff7583f97aa5a1, type: 3}
+    characterName: Tom
+    dialogueText: "Sch\xF6n dich zu sehen!"
+    backgroundSpr: {fileID: 21300000, guid: 0e9021563ee12a84d92e1d74a6d467e8, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -1177
+      y: 24
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: c5d414e1-d6f7-4a49-95b7-d30d25b59038
+    characterSpr: {fileID: 21300000, guid: a13cef44f08dc304daff7583f97aa5a1, type: 3}
+    characterName: Tom
+    dialogueText: Wie war dein Wochenende?
+    backgroundSpr: {fileID: 21300000, guid: 0e9021563ee12a84d92e1d74a6d467e8, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - Sehr aufregend
+    - Sehr langweilig
+    nodePosition:
+      serializedVersion: 2
+      x: -622
+      y: 24
+      width: 499
+      height: 373
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: b030020b-080c-4de5-903b-15a2be1c8afd
+    characterSpr: {fileID: 21300000, guid: a13cef44f08dc304daff7583f97aa5a1, type: 3}
+    characterName: Tom
+    dialogueText: "Das freut mich. \ndu musst mir sp\xE4ter unbedingt davon erz\xE4hlen!"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -63
+      y: -261
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 35657810-118d-4af7-b7e7-3cb90163a6a7
+    characterSpr: {fileID: 21300000, guid: a13cef44f08dc304daff7583f97aa5a1, type: 3}
+    characterName: Tom
+    dialogueText: "Aber h\xF6r mal, hast du schon mitbekommen?\nWir sollen heute
+      einen neuen Mitsch\xFCler bekommen.\nSchon etwas ungew\xF6hnlich, so mitten
+      im Schuljahr."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1074
+      y: 24
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8be36715-fdf4-415e-b61b-3b63980d7fc3
+    characterSpr: {fileID: 21300000, guid: 090146b10b816ab4799d132981add4a7, type: 3}
+    characterName: Tom
+    dialogueText: 'Oh nein, die Lehrerin kommt!
+
+      Wir sollten uns wohl besser
+      hinsetzen.'
+    backgroundSpr: {fileID: 21300000, guid: 0e9021563ee12a84d92e1d74a6d467e8, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1666
+      y: 24
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d3d6c570-3dba-4614-aa10-7758872b6788
+    characterSpr: {fileID: 21300000, guid: a13cef44f08dc304daff7583f97aa5a1, type: 3}
+    characterName: Tom
+    dialogueText: 'Lass uns dieses Wochenende etwas zusammen unternehmen!
+
+      Vielleicht
+      gehen wir in den Freizeitpark oder ins Kino?'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 493
+      y: 289
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: a6e641f6-ef66-4e23-81d5-89b54fce0863
+    characterSpr: {fileID: 21300000, guid: 090146b10b816ab4799d132981add4a7, type: 3}
+    characterName: Tom
+    dialogueText: Wie schade, dabei hatte ich ein sooo tolles Wochenende...
+    backgroundSpr: {fileID: 21300000, guid: 0e9021563ee12a84d92e1d74a6d467e8, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -63
+      y: 289
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: e83d1bc6-aeed-4cf3-af5e-e19b6e482e78
+    characterSpr: {fileID: 21300000, guid: d71060fd2e8458b4b8d0f79469d6dc25, type: 3}
+    characterName: ???
+    dialogueText: 'Hallo alle zusammen!
+
+      Ich bin Henri.'
+    backgroundSpr: {fileID: 21300000, guid: 0e9021563ee12a84d92e1d74a6d467e8, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4691
+      y: 24
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 68a06d3d-2e63-4172-9de1-ab216c9634cf
+    characterSpr: {fileID: 21300000, guid: d71060fd2e8458b4b8d0f79469d6dc25, type: 3}
+    characterName: ???
+    dialogueText: Sicher.
+    backgroundSpr: {fileID: 21300000, guid: 0e9021563ee12a84d92e1d74a6d467e8, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4120
+      y: 24
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5c8fe159-4ddd-41d9-8988-f73aadcf203d
+    characterSpr: {fileID: 21300000, guid: fdcf683f41c78ba45a2bdef97f28ab85, type: 3}
+    characterName: Lehrerin
+    dialogueText: Guten Morgen allerseits!
+    backgroundSpr: {fileID: 21300000, guid: 0e9021563ee12a84d92e1d74a6d467e8, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2757
+      y: 24
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: fef00fe7-39bf-450f-82bb-479768424751
+    characterSpr: {fileID: 21300000, guid: fdcf683f41c78ba45a2bdef97f28ab85, type: 3}
+    characterName: Lehrerin
+    dialogueText: "Ich m\xF6chte euch heute einen neuen Mitsch\xFCler vorstellen.\nEr
+      geh\xF6rt ab heute in unsere Klasse.\nW\xFCrdest du dich den Mitsch\xFClern
+      einmal vorstellen?"
+    backgroundSpr: {fileID: 21300000, guid: 0e9021563ee12a84d92e1d74a6d467e8, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3480
+      y: 24
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 41abc283-7fd7-4345-8a19-e80eeedda80a
+    characterSpr: {fileID: 21300000, guid: d71060fd2e8458b4b8d0f79469d6dc25, type: 3}
+    characterName: Henri
+    dialogueText: 'Ich bin neu in der Stadt und habe deshalb noch nicht viele Freunde.
+
+'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5245
+      y: 24
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 1b88f94e-2b79-42d0-b733-998f763f0b16
+    characterSpr: {fileID: 21300000, guid: d71060fd2e8458b4b8d0f79469d6dc25, type: 3}
+    characterName: Henri
+    dialogueText: Hoffentlich werden wir uns alle gut verstehen.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5800
+      y: 24
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8a648ba8-d4c1-4f5c-a747-c77ba60b1d6b
+    characterSpr: {fileID: 0}
+    characterName: Klasse
+    dialogueText: ....
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6351
+      y: 24
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 4d253b7c-f270-48d5-87c0-e0b0e85c2136
+    characterSpr: {fileID: 0}
+    characterName: Klasse
+    dialogueText: (...Wie sieht der denn aus?....)
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6893
+      y: 24
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5b418dcc-c00b-422f-a3e1-eaa748ca2d7f
+    characterSpr: {fileID: 0}
+    characterName: Klasse
+    dialogueText: "(...Ja das habe ich mir auch gedacht, was tr\xE4gt er da f\xFCr
+      d\xE4mliche Clownsschuhe?...)"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7442
+      y: 24
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
