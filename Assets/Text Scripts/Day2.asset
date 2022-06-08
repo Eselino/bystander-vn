@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: Day2
+  m_EditorClassIdentifier: 
+  links:
+  - guid: b3fc0a1d-82e1-44d6-8cf1-15979a7d2c26
+    targetGuid: 76f3ef74-ceba-48f3-aebd-010ac7940d50
+    portId: 0
+  - guid: b3fc0a1d-82e1-44d6-8cf1-15979a7d2c26
+    targetGuid: 56d70558-654c-45e8-aa42-ce09ed17d1ff
+    portId: 1
+  - guid: b3fc0a1d-82e1-44d6-8cf1-15979a7d2c26
+    targetGuid: 00112f29-a1cd-409b-927c-eb655de545ed
+    portId: 2
+  - guid: 751b6a11-2b8e-4ce7-ad03-f77cecd92b3b
+    targetGuid: b3fc0a1d-82e1-44d6-8cf1-15979a7d2c26
+    portId: 3
+  nodes:
+  - guid: 76f3ef74-ceba-48f3-aebd-010ac7940d50
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: Das ist ein Buch
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1281
+      y: -76
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 56d70558-654c-45e8-aa42-ce09ed17d1ff
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: Das ist ein Apfel
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1355
+      y: 248
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 00112f29-a1cd-409b-927c-eb655de545ed
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: Das ist ein Tisch
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1320
+      y: 633
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 751b6a11-2b8e-4ce7-ad03-f77cecd92b3b
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 21300000, guid: 9892db1a4c43eb64188f2d26c095d76e, type: 3}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -413
+      y: 175
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: b3fc0a1d-82e1-44d6-8cf1-15979a7d2c26
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 21300000, guid: 9892db1a4c43eb64188f2d26c095d76e, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 3
+    choiceOptions:
+    - Buch
+    - Apfel
+    - Tisch
+    nodePosition:
+      serializedVersion: 2
+      x: 235
+      y: 175
+      width: 499
+      height: 418
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}

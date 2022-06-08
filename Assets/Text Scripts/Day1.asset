@@ -13,76 +13,64 @@ MonoBehaviour:
   m_Name: Day1
   m_EditorClassIdentifier: 
   links:
-  - guid: fa60064a-2955-4145-97ca-37b8922e6358
-    targetGuid: ac669669-003e-4bc9-b747-22b1ce4e38ca
-    portId: 0
   - guid: ac669669-003e-4bc9-b747-22b1ce4e38ca
     targetGuid: c5d414e1-d6f7-4a49-95b7-d30d25b59038
-    portId: 1
+    portId: 0
   - guid: c5d414e1-d6f7-4a49-95b7-d30d25b59038
     targetGuid: b030020b-080c-4de5-903b-15a2be1c8afd
-    portId: 2
+    portId: 1
   - guid: c5d414e1-d6f7-4a49-95b7-d30d25b59038
     targetGuid: a6e641f6-ef66-4e23-81d5-89b54fce0863
-    portId: 3
+    portId: 2
   - guid: b030020b-080c-4de5-903b-15a2be1c8afd
     targetGuid: 35657810-118d-4af7-b7e7-3cb90163a6a7
-    portId: 4
+    portId: 3
   - guid: 35657810-118d-4af7-b7e7-3cb90163a6a7
     targetGuid: 8be36715-fdf4-415e-b61b-3b63980d7fc3
-    portId: 5
+    portId: 4
   - guid: 8be36715-fdf4-415e-b61b-3b63980d7fc3
     targetGuid: 5c8fe159-4ddd-41d9-8988-f73aadcf203d
-    portId: 6
+    portId: 5
   - guid: d3d6c570-3dba-4614-aa10-7758872b6788
     targetGuid: 35657810-118d-4af7-b7e7-3cb90163a6a7
-    portId: 7
+    portId: 6
   - guid: a6e641f6-ef66-4e23-81d5-89b54fce0863
     targetGuid: d3d6c570-3dba-4614-aa10-7758872b6788
-    portId: 8
+    portId: 7
   - guid: e83d1bc6-aeed-4cf3-af5e-e19b6e482e78
     targetGuid: 41abc283-7fd7-4345-8a19-e80eeedda80a
-    portId: 9
+    portId: 8
   - guid: 68a06d3d-2e63-4172-9de1-ab216c9634cf
     targetGuid: e83d1bc6-aeed-4cf3-af5e-e19b6e482e78
-    portId: 10
+    portId: 9
   - guid: 5c8fe159-4ddd-41d9-8988-f73aadcf203d
     targetGuid: fef00fe7-39bf-450f-82bb-479768424751
-    portId: 11
+    portId: 10
   - guid: fef00fe7-39bf-450f-82bb-479768424751
     targetGuid: 68a06d3d-2e63-4172-9de1-ab216c9634cf
-    portId: 12
+    portId: 11
   - guid: 41abc283-7fd7-4345-8a19-e80eeedda80a
     targetGuid: 1b88f94e-2b79-42d0-b733-998f763f0b16
-    portId: 13
+    portId: 12
   - guid: 1b88f94e-2b79-42d0-b733-998f763f0b16
     targetGuid: 8a648ba8-d4c1-4f5c-a747-c77ba60b1d6b
-    portId: 14
+    portId: 13
   - guid: 8a648ba8-d4c1-4f5c-a747-c77ba60b1d6b
     targetGuid: 4d253b7c-f270-48d5-87c0-e0b0e85c2136
-    portId: 15
+    portId: 14
   - guid: 4d253b7c-f270-48d5-87c0-e0b0e85c2136
     targetGuid: 5b418dcc-c00b-422f-a3e1-eaa748ca2d7f
+    portId: 15
+  - guid: 5b418dcc-c00b-422f-a3e1-eaa748ca2d7f
+    targetGuid: 0676bc34-8da2-4409-87ea-907f67a99953
     portId: 16
+  - guid: fa60064a-2955-4145-97ca-37b8922e6358
+    targetGuid: ac669669-003e-4bc9-b747-22b1ce4e38ca
+    portId: 17
+  - guid: 0676bc34-8da2-4409-87ea-907f67a99953
+    targetGuid: d15bb301-2bb7-4de1-a2e0-024ac609584b
+    portId: 18
   nodes:
-  - guid: ac669669-003e-4bc9-b747-22b1ce4e38ca
-    characterSpr: {fileID: 21300000, guid: a13cef44f08dc304daff7583f97aa5a1, type: 3}
-    characterName: Tom
-    dialogueText: "Sch\xF6n dich zu sehen!"
-    backgroundSpr: {fileID: 21300000, guid: 0e9021563ee12a84d92e1d74a6d467e8, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: -1177
-      y: 24
-      width: 499
-      height: 307
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
   - guid: c5d414e1-d6f7-4a49-95b7-d30d25b59038
     characterSpr: {fileID: 21300000, guid: a13cef44f08dc304daff7583f97aa5a1, type: 3}
     characterName: Tom
@@ -369,6 +357,42 @@ MonoBehaviour:
       height: 307
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+  - guid: 0676bc34-8da2-4409-87ea-907f67a99953
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8140
+      y: 24
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d15bb301-2bb7-4de1-a2e0-024ac609584b
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8665
+      y: 35
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
   - guid: fa60064a-2955-4145-97ca-37b8922e6358
     characterSpr: {fileID: 0}
     characterName: ???
@@ -381,7 +405,25 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: -1722
+      x: -1719
+      y: 24
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: b9220682e6b259b4d88e38857a44b800, type: 3}
+  - guid: ac669669-003e-4bc9-b747-22b1ce4e38ca
+    characterSpr: {fileID: 21300000, guid: a13cef44f08dc304daff7583f97aa5a1, type: 3}
+    characterName: Tom
+    dialogueText: "Sch\xF6n dich zu sehen!"
+    backgroundSpr: {fileID: 21300000, guid: 0e9021563ee12a84d92e1d74a6d467e8, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -1175
       y: 24
       width: 499
       height: 307
