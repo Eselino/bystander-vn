@@ -13,149 +13,169 @@ MonoBehaviour:
   m_Name: Day1
   m_EditorClassIdentifier: 
   links:
-  - guid: ac669669-003e-4bc9-b747-22b1ce4e38ca
-    targetGuid: c5d414e1-d6f7-4a49-95b7-d30d25b59038
-    portId: 0
-  - guid: c5d414e1-d6f7-4a49-95b7-d30d25b59038
-    targetGuid: b030020b-080c-4de5-903b-15a2be1c8afd
-    portId: 1
-  - guid: c5d414e1-d6f7-4a49-95b7-d30d25b59038
-    targetGuid: a6e641f6-ef66-4e23-81d5-89b54fce0863
-    portId: 2
-  - guid: b030020b-080c-4de5-903b-15a2be1c8afd
-    targetGuid: 35657810-118d-4af7-b7e7-3cb90163a6a7
-    portId: 3
-  - guid: 35657810-118d-4af7-b7e7-3cb90163a6a7
+  - guid: e9b8acf7-4fd1-42e6-82ed-7122ab1cb82f
     targetGuid: 8be36715-fdf4-415e-b61b-3b63980d7fc3
-    portId: 4
-  - guid: 8be36715-fdf4-415e-b61b-3b63980d7fc3
-    targetGuid: 5c8fe159-4ddd-41d9-8988-f73aadcf203d
-    portId: 5
-  - guid: d3d6c570-3dba-4614-aa10-7758872b6788
-    targetGuid: 35657810-118d-4af7-b7e7-3cb90163a6a7
-    portId: 6
-  - guid: a6e641f6-ef66-4e23-81d5-89b54fce0863
-    targetGuid: d3d6c570-3dba-4614-aa10-7758872b6788
-    portId: 7
-  - guid: e83d1bc6-aeed-4cf3-af5e-e19b6e482e78
-    targetGuid: 41abc283-7fd7-4345-8a19-e80eeedda80a
-    portId: 8
-  - guid: 68a06d3d-2e63-4172-9de1-ab216c9634cf
-    targetGuid: e83d1bc6-aeed-4cf3-af5e-e19b6e482e78
-    portId: 9
-  - guid: 5c8fe159-4ddd-41d9-8988-f73aadcf203d
-    targetGuid: fef00fe7-39bf-450f-82bb-479768424751
-    portId: 10
-  - guid: fef00fe7-39bf-450f-82bb-479768424751
-    targetGuid: 68a06d3d-2e63-4172-9de1-ab216c9634cf
-    portId: 11
-  - guid: 41abc283-7fd7-4345-8a19-e80eeedda80a
-    targetGuid: 1b88f94e-2b79-42d0-b733-998f763f0b16
-    portId: 12
-  - guid: 1b88f94e-2b79-42d0-b733-998f763f0b16
-    targetGuid: 8a648ba8-d4c1-4f5c-a747-c77ba60b1d6b
-    portId: 13
-  - guid: 8a648ba8-d4c1-4f5c-a747-c77ba60b1d6b
-    targetGuid: 4d253b7c-f270-48d5-87c0-e0b0e85c2136
-    portId: 14
-  - guid: 4d253b7c-f270-48d5-87c0-e0b0e85c2136
-    targetGuid: 5b418dcc-c00b-422f-a3e1-eaa748ca2d7f
-    portId: 15
-  - guid: 5b418dcc-c00b-422f-a3e1-eaa748ca2d7f
-    targetGuid: 0676bc34-8da2-4409-87ea-907f67a99953
-    portId: 16
+    portId: 0
   - guid: fa60064a-2955-4145-97ca-37b8922e6358
     targetGuid: ac669669-003e-4bc9-b747-22b1ce4e38ca
+    portId: 1
+  - guid: ac669669-003e-4bc9-b747-22b1ce4e38ca
+    targetGuid: e8998004-2b3e-4ee1-a4e7-eb4a997d2208
+    portId: 2
+  - guid: e8998004-2b3e-4ee1-a4e7-eb4a997d2208
+    targetGuid: b030020b-080c-4de5-903b-15a2be1c8afd
+    portId: 3
+  - guid: e8998004-2b3e-4ee1-a4e7-eb4a997d2208
+    targetGuid: e9b8acf7-4fd1-42e6-82ed-7122ab1cb82f
+    portId: 4
+  - guid: e8998004-2b3e-4ee1-a4e7-eb4a997d2208
+    targetGuid: a6e641f6-ef66-4e23-81d5-89b54fce0863
+    portId: 5
+  - guid: a6e641f6-ef66-4e23-81d5-89b54fce0863
+    targetGuid: 8be36715-fdf4-415e-b61b-3b63980d7fc3
+    portId: 6
+  - guid: b030020b-080c-4de5-903b-15a2be1c8afd
+    targetGuid: 8be36715-fdf4-415e-b61b-3b63980d7fc3
+    portId: 7
+  - guid: 8a648ba8-d4c1-4f5c-a747-c77ba60b1d6b
+    targetGuid: 41abc283-7fd7-4345-8a19-e80eeedda80a
+    portId: 8
+  - guid: e83d1bc6-aeed-4cf3-af5e-e19b6e482e78
+    targetGuid: 8a648ba8-d4c1-4f5c-a747-c77ba60b1d6b
+    portId: 9
+  - guid: 41abc283-7fd7-4345-8a19-e80eeedda80a
+    targetGuid: 4d253b7c-f270-48d5-87c0-e0b0e85c2136
+    portId: 10
+  - guid: 5c8fe159-4ddd-41d9-8988-f73aadcf203d
+    targetGuid: fef00fe7-39bf-450f-82bb-479768424751
+    portId: 11
+  - guid: fef00fe7-39bf-450f-82bb-479768424751
+    targetGuid: 68a06d3d-2e63-4172-9de1-ab216c9634cf
+    portId: 12
+  - guid: 68a06d3d-2e63-4172-9de1-ab216c9634cf
+    targetGuid: e83d1bc6-aeed-4cf3-af5e-e19b6e482e78
+    portId: 13
+  - guid: 4d253b7c-f270-48d5-87c0-e0b0e85c2136
+    targetGuid: e96d0c11-9834-4b25-944e-92fec756f83d
+    portId: 14
+  - guid: e96d0c11-9834-4b25-944e-92fec756f83d
+    targetGuid: e2d84451-9b37-444f-93d6-72a4c7313021
+    portId: 15
+  - guid: e2d84451-9b37-444f-93d6-72a4c7313021
+    targetGuid: 342c0a0e-d793-4824-b8d3-e5f1b603f45f
+    portId: 16
+  - guid: 8be36715-fdf4-415e-b61b-3b63980d7fc3
+    targetGuid: 5c8fe159-4ddd-41d9-8988-f73aadcf203d
     portId: 17
-  - guid: 0676bc34-8da2-4409-87ea-907f67a99953
-    targetGuid: d15bb301-2bb7-4de1-a2e0-024ac609584b
+  - guid: 342c0a0e-d793-4824-b8d3-e5f1b603f45f
+    targetGuid: d88255c8-178c-4f72-8de2-4afc0821679b
     portId: 18
+  - guid: d88255c8-178c-4f72-8de2-4afc0821679b
+    targetGuid: d0e3da6f-20dd-4007-87fc-12c7e61a8439
+    portId: 19
+  - guid: d0e3da6f-20dd-4007-87fc-12c7e61a8439
+    targetGuid: 92f7e975-afce-471e-9da7-e00ebdba617c
+    portId: 20
+  - guid: 92f7e975-afce-471e-9da7-e00ebdba617c
+    targetGuid: 675612e9-5767-4607-8400-83fa205266a7
+    portId: 21
+  - guid: 675612e9-5767-4607-8400-83fa205266a7
+    targetGuid: 5d780c88-2c5b-4796-bd4e-2b292caf6f7e
+    portId: 22
+  - guid: 5d780c88-2c5b-4796-bd4e-2b292caf6f7e
+    targetGuid: 2ba598db-3f12-4e44-b021-86d22df9b017
+    portId: 23
+  - guid: 2ba598db-3f12-4e44-b021-86d22df9b017
+    targetGuid: 4fb83afc-3ea1-4454-a586-d48902aa633e
+    portId: 24
+  - guid: 4245af27-55d0-45ba-883b-373f74cafbe6
+    targetGuid: 6b6bc5ba-fb51-4c21-b010-1a2fef9a5a3d
+    portId: 25
+  - guid: 6b6bc5ba-fb51-4c21-b010-1a2fef9a5a3d
+    targetGuid: a7d51a1f-1092-46b7-a4a7-e356ef550d68
+    portId: 26
+  - guid: a7d51a1f-1092-46b7-a4a7-e356ef550d68
+    targetGuid: 1ef27c54-15c5-410f-a326-e62e9d8d5f1d
+    portId: 27
+  - guid: 1ef27c54-15c5-410f-a326-e62e9d8d5f1d
+    targetGuid: b7d0be1b-f870-45dc-a0ec-1dfe85e75f0d
+    portId: 28
+  - guid: b7d0be1b-f870-45dc-a0ec-1dfe85e75f0d
+    targetGuid: bf55417a-1434-403b-952a-bfb66c6c44a3
+    portId: 29
+  - guid: bf55417a-1434-403b-952a-bfb66c6c44a3
+    targetGuid: 5e3a232b-5072-48a5-98ec-d1655bf6bb30
+    portId: 30
+  - guid: 5e3a232b-5072-48a5-98ec-d1655bf6bb30
+    targetGuid: 3412dd39-9824-46bb-805a-4eb7a175d8ab
+    portId: 31
+  - guid: 3412dd39-9824-46bb-805a-4eb7a175d8ab
+    targetGuid: 261cda61-d6a9-4561-b831-f896d8e58dd3
+    portId: 32
+  - guid: 261cda61-d6a9-4561-b831-f896d8e58dd3
+    targetGuid: 8e528816-160f-47f2-9985-bad72777798b
+    portId: 33
+  - guid: 8e528816-160f-47f2-9985-bad72777798b
+    targetGuid: 861eba3d-ec9b-4b72-b164-f5819612e2d2
+    portId: 34
+  - guid: 861eba3d-ec9b-4b72-b164-f5819612e2d2
+    targetGuid: ce92a497-01fd-4489-995b-d4db2d8f6c82
+    portId: 35
+  - guid: ce92a497-01fd-4489-995b-d4db2d8f6c82
+    targetGuid: 250b74aa-4a4a-4908-874d-057d084a2cdb
+    portId: 36
+  - guid: 250b74aa-4a4a-4908-874d-057d084a2cdb
+    targetGuid: 5a226a61-3676-4a0f-b05d-b25051d60f53
+    portId: 37
+  - guid: 5a226a61-3676-4a0f-b05d-b25051d60f53
+    targetGuid: 199bea25-598d-41b9-a40a-04d007c67c62
+    portId: 38
+  - guid: 199bea25-598d-41b9-a40a-04d007c67c62
+    targetGuid: 491322a8-1b9e-4235-831a-b5f6d8ed2168
+    portId: 39
+  - guid: 491322a8-1b9e-4235-831a-b5f6d8ed2168
+    targetGuid: a1f352e1-c1ab-44be-80bc-7d572ee1984d
+    portId: 40
+  - guid: a1f352e1-c1ab-44be-80bc-7d572ee1984d
+    targetGuid: d90bca34-643c-4f49-bd89-4f1758799196
+    portId: 41
+  - guid: a1f352e1-c1ab-44be-80bc-7d572ee1984d
+    targetGuid: f41b1a3b-b3c1-4fa3-9d15-ba5a88d3671a
+    portId: 42
+  - guid: f41b1a3b-b3c1-4fa3-9d15-ba5a88d3671a
+    targetGuid: cccf4b7c-6384-46d2-85d7-ef28d7a2735a
+    portId: 43
+  - guid: d90bca34-643c-4f49-bd89-4f1758799196
+    targetGuid: cccf4b7c-6384-46d2-85d7-ef28d7a2735a
+    portId: 44
+  - guid: 4fb83afc-3ea1-4454-a586-d48902aa633e
+    targetGuid: 4245af27-55d0-45ba-883b-373f74cafbe6
+    portId: 45
   nodes:
-  - guid: c5d414e1-d6f7-4a49-95b7-d30d25b59038
-    characterSpr: {fileID: 21300000, guid: a13cef44f08dc304daff7583f97aa5a1, type: 3}
-    characterName: Tom
-    dialogueText: Wie war dein Wochenende?
-    backgroundSpr: {fileID: 21300000, guid: 0e9021563ee12a84d92e1d74a6d467e8, type: 3}
+  - guid: ac2ef25c-cf69-4bf0-b6d8-380031c0a245
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 0
     choices: 2
     choiceOptions:
-    - Sehr aufregend
-    - Sehr langweilig
+    - Wha
+    - 
     nodePosition:
       serializedVersion: 2
-      x: -622
-      y: 24
+      x: 682
+      y: -912
       width: 499
       height: 373
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
-  - guid: b030020b-080c-4de5-903b-15a2be1c8afd
-    characterSpr: {fileID: 21300000, guid: a13cef44f08dc304daff7583f97aa5a1, type: 3}
-    characterName: Tom
-    dialogueText: "Das freut mich. \ndu musst mir sp\xE4ter unbedingt davon erz\xE4hlen!"
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: -63
-      y: -261
-      width: 499
-      height: 307
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 35657810-118d-4af7-b7e7-3cb90163a6a7
-    characterSpr: {fileID: 21300000, guid: a13cef44f08dc304daff7583f97aa5a1, type: 3}
-    characterName: Tom
-    dialogueText: "Aber h\xF6r mal, hast du schon mitbekommen?\nWir sollen heute
-      einen neuen Mitsch\xFCler bekommen.\nSchon etwas ungew\xF6hnlich, so mitten
-      im Schuljahr."
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 1074
-      y: 24
-      width: 499
-      height: 307
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 8be36715-fdf4-415e-b61b-3b63980d7fc3
+  - guid: e9b8acf7-4fd1-42e6-82ed-7122ab1cb82f
     characterSpr: {fileID: 21300000, guid: 090146b10b816ab4799d132981add4a7, type: 3}
     characterName: Tom
-    dialogueText: 'Oh nein, die Lehrerin kommt!
-
-      Wir sollten uns wohl besser
-      hinsetzen.'
-    backgroundSpr: {fileID: 21300000, guid: 0e9021563ee12a84d92e1d74a6d467e8, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 1666
-      y: 24
-      width: 499
-      height: 307
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: d3d6c570-3dba-4614-aa10-7758872b6788
-    characterSpr: {fileID: 21300000, guid: a13cef44f08dc304daff7583f97aa5a1, type: 3}
-    characterName: Tom
-    dialogueText: 'Lass uns dieses Wochenende etwas zusammen unternehmen!
-
-      Vielleicht
-      gehen wir in den Freizeitpark oder ins Kino?'
+    dialogueText: Haha that's the Friend I have, c'mon let's ask someone to copy
+      the Homework from.
     backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 0
@@ -164,231 +184,8 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 493
-      y: 289
-      width: 499
-      height: 307
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: a6e641f6-ef66-4e23-81d5-89b54fce0863
-    characterSpr: {fileID: 21300000, guid: 090146b10b816ab4799d132981add4a7, type: 3}
-    characterName: Tom
-    dialogueText: Wie schade, dabei hatte ich ein sooo tolles Wochenende...
-    backgroundSpr: {fileID: 21300000, guid: 0e9021563ee12a84d92e1d74a6d467e8, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: -63
-      y: 289
-      width: 499
-      height: 307
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: e83d1bc6-aeed-4cf3-af5e-e19b6e482e78
-    characterSpr: {fileID: 21300000, guid: d71060fd2e8458b4b8d0f79469d6dc25, type: 3}
-    characterName: ???
-    dialogueText: 'Hallo alle zusammen!
-
-      Ich bin Henri.'
-    backgroundSpr: {fileID: 21300000, guid: 0e9021563ee12a84d92e1d74a6d467e8, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 4691
-      y: 24
-      width: 499
-      height: 307
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 68a06d3d-2e63-4172-9de1-ab216c9634cf
-    characterSpr: {fileID: 21300000, guid: d71060fd2e8458b4b8d0f79469d6dc25, type: 3}
-    characterName: ???
-    dialogueText: Sicher.
-    backgroundSpr: {fileID: 21300000, guid: 0e9021563ee12a84d92e1d74a6d467e8, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 4120
-      y: 24
-      width: 499
-      height: 307
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 5c8fe159-4ddd-41d9-8988-f73aadcf203d
-    characterSpr: {fileID: 21300000, guid: fdcf683f41c78ba45a2bdef97f28ab85, type: 3}
-    characterName: Lehrerin
-    dialogueText: Guten Morgen allerseits!
-    backgroundSpr: {fileID: 21300000, guid: 0e9021563ee12a84d92e1d74a6d467e8, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 2757
-      y: 24
-      width: 499
-      height: 307
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: fef00fe7-39bf-450f-82bb-479768424751
-    characterSpr: {fileID: 21300000, guid: fdcf683f41c78ba45a2bdef97f28ab85, type: 3}
-    characterName: Lehrerin
-    dialogueText: "Ich m\xF6chte euch heute einen neuen Mitsch\xFCler vorstellen.\nEr
-      geh\xF6rt ab heute in unsere Klasse.\nW\xFCrdest du dich den Mitsch\xFClern
-      einmal vorstellen?"
-    backgroundSpr: {fileID: 21300000, guid: 0e9021563ee12a84d92e1d74a6d467e8, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 3480
-      y: 24
-      width: 499
-      height: 307
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 41abc283-7fd7-4345-8a19-e80eeedda80a
-    characterSpr: {fileID: 21300000, guid: d71060fd2e8458b4b8d0f79469d6dc25, type: 3}
-    characterName: Henri
-    dialogueText: 'Ich bin neu in der Stadt und habe deshalb noch nicht viele Freunde.
-
-'
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 5245
-      y: 24
-      width: 499
-      height: 307
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 1b88f94e-2b79-42d0-b733-998f763f0b16
-    characterSpr: {fileID: 21300000, guid: d71060fd2e8458b4b8d0f79469d6dc25, type: 3}
-    characterName: Henri
-    dialogueText: Hoffentlich werden wir uns alle gut verstehen.
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 5800
-      y: 24
-      width: 499
-      height: 307
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 8a648ba8-d4c1-4f5c-a747-c77ba60b1d6b
-    characterSpr: {fileID: 0}
-    characterName: Klasse
-    dialogueText: ....
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 6351
-      y: 24
-      width: 499
-      height: 307
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 4d253b7c-f270-48d5-87c0-e0b0e85c2136
-    characterSpr: {fileID: 0}
-    characterName: Klasse
-    dialogueText: (...Wie sieht der denn aus?....)
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 6893
-      y: 24
-      width: 499
-      height: 307
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 5b418dcc-c00b-422f-a3e1-eaa748ca2d7f
-    characterSpr: {fileID: 0}
-    characterName: Klasse
-    dialogueText: "(...Ja das habe ich mir auch gedacht, was tr\xE4gt er da f\xFCr
-      d\xE4mliche Clownsschuhe?...)"
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 7442
-      y: 24
-      width: 499
-      height: 307
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 0676bc34-8da2-4409-87ea-907f67a99953
-    characterSpr: {fileID: 0}
-    characterName: 
-    dialogueText: 
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 8140
-      y: 24
-      width: 499
-      height: 307
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: d15bb301-2bb7-4de1-a2e0-024ac609584b
-    characterSpr: {fileID: 0}
-    characterName: 
-    dialogueText: 
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 1
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 8665
-      y: 35
+      x: -65
+      y: -27
       width: 499
       height: 307
     soundEffect: {fileID: 0}
@@ -396,8 +193,8 @@ MonoBehaviour:
   - guid: fa60064a-2955-4145-97ca-37b8922e6358
     characterSpr: {fileID: 0}
     characterName: ???
-    dialogueText: Hey du!
-    backgroundSpr: {fileID: 21300000, guid: 0e9021563ee12a84d92e1d74a6d467e8, type: 3}
+    dialogueText: Hey you!
+    backgroundSpr: {fileID: 21300000, guid: 70e231e85b25e9747861ce2113bd1e0a, type: 3}
     startNode: 1
     endNode: 0
     choices: 1
@@ -414,8 +211,8 @@ MonoBehaviour:
   - guid: ac669669-003e-4bc9-b747-22b1ce4e38ca
     characterSpr: {fileID: 21300000, guid: a13cef44f08dc304daff7583f97aa5a1, type: 3}
     characterName: Tom
-    dialogueText: "Sch\xF6n dich zu sehen!"
-    backgroundSpr: {fileID: 21300000, guid: 0e9021563ee12a84d92e1d74a6d467e8, type: 3}
+    dialogueText: Nice to see you!
+    backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 0
     choices: 1
@@ -429,3 +226,760 @@ MonoBehaviour:
       height: 307
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 8300000, guid: b9220682e6b259b4d88e38857a44b800, type: 3}
+  - guid: e8998004-2b3e-4ee1-a4e7-eb4a997d2208
+    characterSpr: {fileID: 21300000, guid: a13cef44f08dc304daff7583f97aa5a1, type: 3}
+    characterName: Tom
+    dialogueText: Have you done your Homework for today?
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 3
+    choiceOptions:
+    - Yes, I did.
+    - No, i didn't bother.
+    - Crap, I forgot about them!
+    nodePosition:
+      serializedVersion: 2
+      x: -650
+      y: -28
+      width: 499
+      height: 418
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: a6e641f6-ef66-4e23-81d5-89b54fce0863
+    characterSpr: {fileID: 21300000, guid: 090146b10b816ab4799d132981add4a7, type: 3}
+    characterName: Tom
+    dialogueText: Geez...you should start studying or else you will have to repeat
+      this year. Don't let me alone, man.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -57
+      y: 295
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: b030020b-080c-4de5-903b-15a2be1c8afd
+    characterSpr: {fileID: 21300000, guid: a13cef44f08dc304daff7583f97aa5a1, type: 3}
+    characterName: Tom
+    dialogueText: Oh that's neat, I'm sure you're okay with me yoinking them for
+      a couple minutes to copy them.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -59
+      y: -339
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8a648ba8-d4c1-4f5c-a747-c77ba60b1d6b
+    characterSpr: {fileID: 0}
+    characterName: Girl voice
+    dialogueText: Where did you live before?
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3379
+      y: -31
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: e83d1bc6-aeed-4cf3-af5e-e19b6e482e78
+    characterSpr: {fileID: 21300000, guid: d71060fd2e8458b4b8d0f79469d6dc25, type: 3}
+    characterName: ???
+    dialogueText: '*takes a deep breath*
+
+      H-He-Hello, my name is Henry and
+      I just moved to my Mother''s place.'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2875
+      y: -32
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 41abc283-7fd7-4345-8a19-e80eeedda80a
+    characterSpr: {fileID: 21300000, guid: d71060fd2e8458b4b8d0f79469d6dc25, type: 3}
+    characterName: Henry
+    dialogueText: I-I lived with my Dad but he h-has to w-wo-work abroad now.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3931
+      y: -42
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5c8fe159-4ddd-41d9-8988-f73aadcf203d
+    characterSpr: {fileID: 21300000, guid: fdcf683f41c78ba45a2bdef97f28ab85, type: 3}
+    characterName: Ms. Sneezer
+    dialogueText: Sit down everyone, I have an announcement to make. Today we are
+      getting a new Student.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1149
+      y: -29
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: fef00fe7-39bf-450f-82bb-479768424751
+    characterSpr: {fileID: 21300000, guid: fdcf683f41c78ba45a2bdef97f28ab85, type: 3}
+    characterName: Ms. Sneezer
+    dialogueText: '*Yawn* Please go ahead and introduce yourself.'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1699
+      y: -34
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 68a06d3d-2e63-4172-9de1-ab216c9634cf
+    characterSpr: {fileID: 21300000, guid: d71060fd2e8458b4b8d0f79469d6dc25, type: 3}
+    characterName: ???
+    dialogueText: Y-Yeah.. O-Okay..
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2346
+      y: -32
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 4d253b7c-f270-48d5-87c0-e0b0e85c2136
+    characterSpr: {fileID: 0}
+    characterName: Whispers from behind
+    dialogueText: (...Haha, look at him, he is about to cry, what a weakling....)
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4436
+      y: -33
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: e96d0c11-9834-4b25-944e-92fec756f83d
+    characterSpr: {fileID: 21300000, guid: fdcf683f41c78ba45a2bdef97f28ab85, type: 3}
+    characterName: Ms. Sneezer
+    dialogueText: Stop talking everyone, we are about to start class. Go sit down
+      Hans
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4939
+      y: -33
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: e2d84451-9b37-444f-93d6-72a4c7313021
+    characterSpr: {fileID: 21300000, guid: d71060fd2e8458b4b8d0f79469d6dc25, type: 3}
+    characterName: Henry
+    dialogueText: O-Okay... (..My Name is Henry, not Hans...)
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5510
+      y: -36
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8be36715-fdf4-415e-b61b-3b63980d7fc3
+    characterSpr: {fileID: 21300000, guid: 090146b10b816ab4799d132981add4a7, type: 3}
+    characterName: Tom
+    dialogueText: Oh shoot, Ms. Sneez' is arriving! We should go back to our seats.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 529
+      y: -26
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 342c0a0e-d793-4824-b8d3-e5f1b603f45f
+    characterSpr: {fileID: 21300000, guid: 090146b10b816ab4799d132981add4a7, type: 3}
+    characterName: Tom
+    dialogueText: (...Ahh.. this isn't going to end well, that's for sure...)
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6168
+      y: -46
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d88255c8-178c-4f72-8de2-4afc0821679b
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: Some time passes..
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6715
+      y: -46
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d0e3da6f-20dd-4007-87fc-12c7e61a8439
+    characterSpr: {fileID: 0}
+    characterName: Ms. Sneezer
+    dialogueText: Okay, Leslie hand these out. Fill the quiz until I am back.  This
+      is your assignment for today.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7285
+      y: -56
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 92f7e975-afce-471e-9da7-e00ebdba617c
+    characterSpr: {fileID: 0}
+    characterName: Tom
+    dialogueText: And again we get do to stuff on our own.. why is Ms. Sneez' even
+      a teacher if she doesn't teach.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8049
+      y: -67
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 675612e9-5767-4607-8400-83fa205266a7
+    characterSpr: {fileID: 0}
+    characterName: Billy
+    dialogueText: HEY HANS!
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8723
+      y: -83
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5d780c88-2c5b-4796-bd4e-2b292caf6f7e
+    characterSpr: {fileID: 0}
+    characterName: Billy
+    dialogueText: HEEEEEEEEY!!!
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 9373
+      y: -82
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 2ba598db-3f12-4e44-b021-86d22df9b017
+    characterSpr: {fileID: 0}
+    characterName: Billy
+    dialogueText: HAAAANS I AM TALKING TO YOU!!
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 9916
+      y: -81
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 4fb83afc-3ea1-4454-a586-d48902aa633e
+    characterSpr: {fileID: 0}
+    characterName: Leslie
+    dialogueText: Billy, stop screaming!
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 10467
+      y: -82
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 4245af27-55d0-45ba-883b-373f74cafbe6
+    characterSpr: {fileID: 0}
+    characterName: Leslie
+    dialogueText: Im trying to concentrate on my Quiz so please keep it down.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 10971
+      y: -82
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 6b6bc5ba-fb51-4c21-b010-1a2fef9a5a3d
+    characterSpr: {fileID: 0}
+    characterName: Leslie
+    dialogueText: 'Also, his name is Henry and not Hans. '
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 11561
+      y: -77
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: a7d51a1f-1092-46b7-a4a7-e356ef550d68
+    characterSpr: {fileID: 0}
+    characterName: Boy voice
+    dialogueText: Haha she is right Billy, are that dumb, that you forget his name
+      even thought it isn't even 10 mins past him telling his name to us.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 12137
+      y: -78
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 1ef27c54-15c5-410f-a326-e62e9d8d5f1d
+    characterSpr: {fileID: 0}
+    characterName: Billy
+    dialogueText: SHUT THE FUCK UP
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 12647
+      y: -77
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: b7d0be1b-f870-45dc-a0ec-1dfe85e75f0d
+    characterSpr: {fileID: 0}
+    characterName: Billy
+    dialogueText: 'I called him like that on purpose, because Ms Sneez'' couldnt
+      even listen to him talk. What a disgrace. '
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 13177
+      y: -78
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: bf55417a-1434-403b-952a-bfb66c6c44a3
+    characterSpr: {fileID: 0}
+    characterName: Boy voice
+    dialogueText: Yeah you're right, he didn't even correct her.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 13704
+      y: -79
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5e3a232b-5072-48a5-98ec-d1655bf6bb30
+    characterSpr: {fileID: 0}
+    characterName: Boy voice
+    dialogueText: Might aswell be his Name if he didnt respond, haha.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 14221
+      y: -78
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 3412dd39-9824-46bb-805a-4eb7a175d8ab
+    characterSpr: {fileID: 0}
+    characterName: Billy
+    dialogueText: Yes, you get it! Hans, if you have a problem with how I call you,
+      we can solve that on the basketball field later.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 14749
+      y: -80
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 261cda61-d6a9-4561-b831-f896d8e58dd3
+    characterSpr: {fileID: 0}
+    characterName: Henry
+    dialogueText: A-Ah.. C-Call me w-whatever y-you want..
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 15254
+      y: -80
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8e528816-160f-47f2-9985-bad72777798b
+    characterSpr: {fileID: 0}
+    characterName: Billy
+    dialogueText: Hahah, see Leslie?
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 15807
+      y: -80
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 861eba3d-ec9b-4b72-b164-f5819612e2d2
+    characterSpr: {fileID: 0}
+    characterName: Billy
+    dialogueText: he doesn't have a problem with me calling him Hans!
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 16409
+      y: -86
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ce92a497-01fd-4489-995b-d4db2d8f6c82
+    characterSpr: {fileID: 0}
+    characterName: Leslie
+    dialogueText: "*rolls her eyes*\n yeah yeah.."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 16966
+      y: -87
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 250b74aa-4a4a-4908-874d-057d084a2cdb
+    characterSpr: {fileID: 0}
+    characterName: Leslie
+    dialogueText: (...only because you threatened him...)
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 17468
+      y: -87
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5a226a61-3676-4a0f-b05d-b25051d60f53
+    characterSpr: {fileID: 0}
+    characterName: Billy
+    dialogueText: '*wraps his Arm around Henry''s Shoulders*
+
+      So Hans, are
+      you going to help your first Friend out and give me your Quiz sheet?'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 18115
+      y: -81
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 199bea25-598d-41b9-a40a-04d007c67c62
+    characterSpr: {fileID: 0}
+    characterName: Henry
+    dialogueText: ...
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 18735
+      y: -79
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 491322a8-1b9e-4235-831a-b5f6d8ed2168
+    characterSpr: {fileID: 0}
+    characterName: Billy
+    dialogueText: Hahahah, neat! Thanks Hans!
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 19238
+      y: -79
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: a1f352e1-c1ab-44be-80bc-7d572ee1984d
+    characterSpr: {fileID: 0}
+    characterName: Tom
+    dialogueText: Billy is already teasing Hans, that's so mean..
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - His name is Henry, not Hans.
+    - Yes, poor Hans.
+    nodePosition:
+      serializedVersion: 2
+      x: 19851
+      y: -77
+      width: 499
+      height: 373
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: f41b1a3b-b3c1-4fa3-9d15-ba5a88d3671a
+    characterSpr: {fileID: 0}
+    characterName: Tom
+    dialogueText: I don't want to get dragged into that mess.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 20378
+      y: 47
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d90bca34-643c-4f49-bd89-4f1758799196
+    characterSpr: {fileID: 0}
+    characterName: Tom
+    dialogueText: Oh you're right, im sorry! Billy calling him Hans all the time
+      made me forget.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 20382
+      y: -287
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: cccf4b7c-6384-46d2-85d7-ef28d7a2735a
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 21077
+      y: -52
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
